@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p dst/ eps/ flat/ pnm/
+
 for f in orig/*.png; do
     name=`basename $f`
     name_no_ext=`basename $f .png`
